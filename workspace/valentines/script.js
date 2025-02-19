@@ -44,6 +44,8 @@ yesButton.addEventListener("click", () => {
 
     // make the yes button big
     yesButton.style.transform = "scale(1.6)";
+
+    yesButton.classList.add("shake");
 })
 
 noButton.addEventListener("click", () => {

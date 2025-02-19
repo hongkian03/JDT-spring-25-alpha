@@ -73,3 +73,35 @@ span {
     height: 100%;
     z-index: -1;
 }
+
+#yes:hover {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
+
+#no:hover {
+    transform: scale(0.4);
+    transition: transform 0.5s;
+}
+
+.shake {
+    animation: shake infinite 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(10px);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
